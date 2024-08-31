@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Directory</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 2px solid black; /* Thick border */
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Employee Directory</h1>
+    <table>
+        <tr>
+            <th>Name of the Employee</th>
+            <th>City</th>
+            <th>Phone Number</th>
+        </tr>
+        <!-- 100 Employee Records -->
+        <tr><td>John Doe</td><td>New York</td><td>+1-555-1234</td></tr>
+        <tr><td>Jane Smith</td><td>Los Angeles</td><td>+1-555-5678</td></tr>
+        <tr><td>Robert Brown</td><td>Chicago</td><td>+1-555-8765</td></tr>
+        <tr><td>Emily Davis</td><td>Houston</td><td>+1-555-4321</td></tr>
+        <tr><td>Michael Wilson</td><td>Phoenix</td><td>+1-555-6543</td></tr>
+        <tr><td>Linda Johnson</td><td>Philadelphia</td><td>+1-555-7890</td></tr>
+        <tr><td>David Lee</td><td>San Antonio</td><td>+1-555-3214</td></tr>
+        <tr><td>Barbara White</td><td>San Diego</td><td>+1-555-7412</td></tr>
+        <tr><td>Paul Harris</td><td>Dallas</td><td>+1-555-8529</td></tr>
+        <tr><td>Sarah Clark</td><td>San Jose</td><td>+1-555-9638</td></tr>
+        <tr><td>James Lewis</td><td>Austin</td><td>+1-555-1478</td></tr>
+        <tr><td>Mary Walker</td><td>Fort Worth</td><td>+1-555-2587</td></tr>
+        <tr><td>John Hall</td><td>Jacksonville</td><td>+1-555-3695</td></tr>
+        <tr><td>Patricia Allen</td><td>Columbus</td><td>+1-555-7412</td></tr>
+        <tr><td>Christopher Young</td><td>Charlotte</td><td>+1-555-1239</td></tr>
+        <tr><td>Elizabeth King</td><td>Indianapolis</td><td>+1-555-2348</td></tr>
+        <tr><td>Matthew Scott</td><td>San Francisco</td><td>+1-555-3457</td></tr>
+        <tr><td>Jennifer Adams</td><td>Seattle</td><td>+1-555-4566</td></tr>
+        <tr><td>Daniel Baker</td><td>Denver</td><td>+1-555-5675</td></tr>
+        <tr><td>Jessica Mitchell</td><td>Washington</td><td>+1-555-6784</td></tr>
+        <tr><td>Thomas Roberts</td><td>Boston</td><td>+1-555-7893</td></tr>
+        <tr><td>Mark Turner</td><td>El Paso</td><td>+1-555-8912</td></tr>
+        <tr><td>Betty Perez</td><td>Nashville</td><td>+1-555-9121</td></tr>
+        <tr><td>Steven Campbell</td><td>Detroit</td><td>+1-555-0234</td></tr>
+        <tr><td>Amanda Flores</td><td>Memphis</td><td>+1-555-1345</td></tr>
+        <tr><td>Kevin Morris</td><td>Las Vegas</td><td>+1-555-2456</td></tr>
+        <tr><td>Carolyn Rivera</td><td>Louisville</td><td>+1-555-3567</td></tr>
+        <tr><td>Jason Howard</td><td>Baltimore</td><td>+1-555-4678</td></tr>
+        <tr><td>Michelle Cox</td><td>Milwaukee</td><td>+1-555-5789</td></tr>
+        <tr><td>Brian Ward</td><td>Albuquerque</td><td>+1-555-6890</td></tr>
+        <tr><td>Laura Torres</td><td>Tucson</td><td>+1-555-7912</td></tr>
+        <tr><td>Joshua Rogers</td><td>Fresno</td><td>+1-555-8023</td></tr>
+        <tr><td>Karen Perry</td><td>Sacramento</td><td>+1-555-9134</td></tr>
+        <tr><td>Andrew Gomez</td><td>Kansas City</td><td>+1-555-0245</td></tr>
+        <tr><td>Donna Jenkins</td><td>Long Beach</td><td>+1-555-1356</td></tr>
+        <tr><td>Patrick Stewart</td><td>Omaha</td><td>+1-555-2467</td></tr>
+        <tr><td>Lisa Martinez</td><td>Atlanta</td><td>+1-555-3578</td></tr>
+        <tr><td>Ryan Edwards</td><td>Colorado Springs</td><td>+1-555-4689</td></tr>
+        <tr><td>Rebecca Sanders</td><td>Raleigh</td><td>+1-555-5790</td></tr>
+        <tr><td>Gary Price</td><td>Miami</td><td>+1-555-6812</td></tr>
+        <tr><td>Amy Bennett</td><td>Virginia Beach</td><td>+1-555-7923</td></tr>
+        <tr><td>Edward Bell</td><td>Oakland</td><td>+1-555-8034</td></tr>
+        <tr><td>Susan Coleman</td><td>Minneapolis</td><td>+1-555-9145</td></tr>
+        <tr><td>Gregory Bailey</td><td>Tulsa</td><td>+1-555-0256</td></tr>
+        <tr><td>Katherine Peterson</td><td>Arlington</td><td>+1-555-1367</td></tr>
+        <tr><td>Stephen Jenkins</td><td>New Orleans</td><td>+1-555-2478</td></tr>
+        <tr><td>Deborah Shaw</td><td>Wichita</td><td>+1-555-3589</td></tr>
+        <tr><td>Timothy Long</td><td>Cleveland</td><td>+1-555-4690</td></tr>
+        <tr><td>Brenda Hughes</td><td>Tampa</td><td>+1-555-5712</td></tr>
+        <tr><td>George Ramirez</td><td>Aurora</td><td>+1-555-6823</td></tr>
+        <tr><td>Heather Butler</td><td>Anaheim</td><td>+1-555-7934</td></tr>
+        <tr><td>Alexander Watson</td><td>Honolulu</td><td>+1-555-8045</td></tr>
+        <tr><td>Rachel Brooks</td><td>Santa Ana</td><td>+1-555-9156</td></tr>
+        <tr><td>Charles Wright</td><td>Riverside</td><td>+1-555-0267</td></tr>
+        <tr><td>Sharon King</td><td>Corpus Christi</td><td>+1-555-1378</td></tr>
+        <tr><td>Jonathan Bryant</td><td>Lexington</td><td>+1-555-2489</td></tr>
+        <tr><td>Judith Stone</td><td>Stockton</td><td>+1-555-3590</td></tr>
+        <tr><td>Frank Griffin</td><td>Henderson</td><td>+1-555-4712</td></tr>
+        <tr><td>Emma Russell</td><td>Saint Paul</td><td>+1-555-6823</td></tr>
+        <tr><td>Shirley Alexander</td><td>Cincinnati</td><td>+1-555-7934</td></tr>
+        <tr><td>Samuel Henderson</td><td>Pittsburgh</td><td>+1-555-8045</td></tr>
+        <tr><td>Rose Fisher</td><td>Anchorage</td><td>+1-555-9156</td></tr>
+        <tr><td>Harold Stephens</td><td>Plano</td><td>+1-555-0267</td></tr>
+        <tr><td>Emily Barnes</td><td>Orlando</td><td>+1-555-1378</td></tr>
+        <tr><td>Ronald Hayes</td><td>Irvine</td><td>+1-555-2489</td></tr>
+        <tr><td>Dorothy Ward</td><td>Newark</td><td>+1-555-3590</td></tr>
+        <tr><td>Adam Simmons</td><td>Durham</td><td>+1-555-4712</td></tr>
+        <tr><td>Janet Foster</td><td>St. Louis</td><td>+1-555-5823</td></tr>
+        <tr><td>Walter Murray</td><td>Chula Vista</td><td>+1-555-6934</td></tr>
+        <tr><td>Joyce Kelly</td><td>Toledo</td><td>+1-555-8045</td></tr>
+        <tr><td>Jeffrey Reed</td><td>Laredo</td><td>+1-555-9156</td></tr>
+        <tr><td>Gloria Bell</td><td>Madison</td><td>+1-555-0267</td></tr>
+        <tr><td>Raymond Richardson</td><td>Gilbert</td><td>+1-555-1378</td></tr>
+        <tr><td>Alice Torres</td><td>Reno</td><td>+1-555-2489</td></tr>
+        <tr><td>Carl Barnes</td><td>Baton Rouge</td><td>+1-555-3590</td></tr>
+        <tr><td>Marie Cox</td><td>Irving</td><td>+1-555-4712</td></tr>
+        <tr><td>Billy Stewart</td><td>Fremont</td><td>+1-555-5823</td></tr>
+        <tr><td>Janice Morgan</td><td>Boise</td><td>+1-555-6934</td></tr>
+        <tr><td>Russell Powell</td><td>Richmond</td><td>+1-555-8045</td></tr>
+        <tr><td>Teresa Bailey</td><td>Spokane</td><td>+1-555-9156</td></tr>
+        <tr><td>Philip Jenkins</td><td>Tacoma</td><td>+1-555-0267</td></tr>
+        <tr><td>Diane Perry</td><td>Fontana</td><td>+1-555-1378</td></tr>
+        <tr><td>Albert Miller</td><td>Modesto</td><td>+1-555-2489</td></tr>
+        <tr><td>Gloria Brooks</td><td>Birmingham</td><td>+1-555-3590</td></tr>
+        <tr><td>Ralph Evans</td><td>Des Moines</td><td>+1-555-4712</td></tr>
+        <tr><td>Virginia Sanders</td><td>Rochester</td><td>+1-555-5823</td></tr>
+        <tr><td>Roy Price</td><td>Akron</td><td>+1-555-6934</td></tr>
+        <tr><td>Ashley Ward</td><td>Oxnard</td><td>+1-555-8045</td></tr>
+        <tr><td>Willie Coleman</td><td>Yonkers</td><td>+1-555-9156</td></tr>
+    </table>
+</body>
+</html>
